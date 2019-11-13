@@ -12,6 +12,93 @@
 
     <h1>Ny Produkt</h1>
 
+    <form action="newProduct">
+
+        <div class="inputBlock">
+            <label class="inputBlock">
+                Namn
+                <input type="text" name="productName">
+            </label>
+        </div>
+
+        <div class="inputBlock">
+            <label for="productDescription" class="inputBlock">
+                Beskrivning
+            </label>
+        </div>
+
+        <div class="inputBlock">
+            <textarea name="productDescription" id="productDescription" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="inputBlock">
+            <label class="inputBlock">
+                Pris
+                <input type="number" name="productPrice">
+            </label>
+        </div>
+
+        <div class="inputBlock">
+            <label>
+                Bild URL:
+                <input type="url">
+            </label>
+        </div>
+
+        <div class="inputBlock">
+            <label>
+                Kategori
+                <select name="productCategory" id="productCategory">
+                    <option value="Byxor"> Byxor</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="inputBlock">
+            Storlekar <br>
+            <label>
+                <input type="checkbox">
+                XS
+            </label><br>
+
+            <label>
+                <input type="checkbox">
+                S
+            </label><br>
+
+            <label>
+                <input type="checkbox">
+                M
+            </label><br>
+
+            <label>
+                <input type="checkbox">
+                L
+            </label><br>
+
+            <label>
+                <input type="checkbox">
+                XL
+            </label><br>
+
+            <label>
+                <input type="checkbox">
+                XXL
+            </label><br>
+        </div>
+        
+            
+
+            <fieldset id="group1" style="border: 0;"> Klimatkompenserad:
+                <input type="radio" value="value1" name="group1">Ja
+                <input type="radio" value="value2" name="group1">Nej
+            </fieldset>
+
+            <button>Lägg till</button>
+
+
+    </form>
+
 </body>
 
 </html>

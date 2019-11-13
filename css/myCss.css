@@ -41,3 +41,11 @@ ul {
     float: right;
     bottom: 4px;
 }
+
+.inputBlock {
+    display: block;
+}
+
+fieldset{
+ border: 0;
+}
